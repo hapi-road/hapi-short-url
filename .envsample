@@ -1,0 +1,7 @@
+SERVER_HOST=localhost
+SERVER_PORT=8000
+DB_NAME=shorter
+DB_USERNAME=shorter
+DB_PASSWORD=shorter
+DB_HOST=127.0.0.1
+DB_DIALECT=pg
