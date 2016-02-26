@@ -19,6 +19,7 @@ exports.register = (server, options, next) => {
 
   db = getModels(db);
   db['Bookshelf'] = Bookshelf;
+  db['knex'] = Bookshelf.knex;
 
   server.decorate('server', 'database', db);
 

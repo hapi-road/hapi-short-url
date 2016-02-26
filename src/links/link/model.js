@@ -18,6 +18,9 @@ module.exports = (Bookshelf) => {
 };
 
 function shortLink (model) {
+  if (!model.isNew()) {
+    return;
+  }
   model.set('shorted', shortId.generate());
 }
 
