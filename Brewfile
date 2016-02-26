@@ -1,3 +1,0 @@
-brew 'nodenv'
-brew 'mongodb'
-
